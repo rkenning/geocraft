@@ -12,7 +12,7 @@ use Archive::Zip qw/ :ERROR_CODES /;
 use strict;
 use warnings;
 
-my $GDAL_TRANSLATE = "/Applications/QGIS.app/Contents/MacOS/bin/gdal_translate";
+my $GDAL_TRANSLATE = "/usr/bin/gdal_translate";
 
 sub new 
 {
